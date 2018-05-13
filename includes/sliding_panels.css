@@ -6,5 +6,6 @@ a, a:visited { color: #00f; }
 h1.fpo_text { color: #aaa; font-family: Times; font-size: 24px; }
 p.fpo_text { color: #aaa; font-family: Times; font-size: 16px; }
 
-
+.sp h2 { font-size: 1.15em; margin: 0 0 .5em 0; }
+.sp p { font-size: 1em; margin: 0 0 1em 0;}
 
