@@ -2,6 +2,8 @@
 /*  Written by Chris Converse for lynda.com  */
 
 var panelWidth = 0;
+var startPanel = 2;
+
 $(document).ready(function() {
   window.panelWidth = $('.sp').width();
 
@@ -18,6 +20,8 @@ $(document).ready(function() {
     });
 
   });
+
+  $('.sp .tabs span:nth-child('+window.startPanel+')').trigger('click');
 
 });
 
