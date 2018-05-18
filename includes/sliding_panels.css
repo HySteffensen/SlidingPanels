@@ -41,7 +41,7 @@ p.fpo_text { color: #aaa; font-family: Times; font-size: 16px; }
     border-top-right-radius: 12px;
 }
 
-.sp .tabs span.selected { color: #999; border-bottom: 1px; solid #fff; }
+.sp .tabs span.selected { color: #999; border-bottom: 1px solid #fff; }
 
 .sp .panel_container {
   position: relative;
