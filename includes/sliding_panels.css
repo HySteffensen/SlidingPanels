@@ -56,3 +56,14 @@ p.fpo_text { color: #aaa; font-family: Times; font-size: 16px; }
 
 .sp .panel_container .panels { position: absolute; top:0; }
 .sp .panel_container .panel { position: absolute; height: 400px; }
+
+.sp .tabs .video.selected {
+    color: #ffce6f;
+    background-color: #3a3563;
+    border-bottom: 1px solid #3a3563;
+}
+
+.sp .panels .video .panel_content { background: url(../images/video_background.jpg) no-repeat 0px 0px; }
+.sp .panels .video .panel_content h2 { color: #000; }
+.sp .panels .video .panel_content p { color: #fff; }
+.sp .panels .video .panel_content a { color: #ffce6f; }

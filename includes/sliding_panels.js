@@ -31,6 +31,9 @@ function changePanels(newIndex){
 	var newPanelPosition = ( window.panelWidth * newIndex ) * -1;
 	var newPanelHeight = $('.sp .panel:nth-child('+(newIndex+1)+')').find('.panel_content').height() + 15;
 
+  $('.sp .tabs span').removeClass('selected');
+  $('.sp .tabs span:nth-child('+(newIndex+1)+')').addClass('selected');
+  
 	$('.sp .panels').animate({left:newPanelPosition},1000);
 	$('.sp .panel_container').animate({height:newPanelHeight},1000);
 
